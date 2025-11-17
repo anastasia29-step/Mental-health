@@ -23,3 +23,6 @@ nav{
     list-style: none;
     gap: 15px;
 }
+.hr hr{
+    margin-top: -2px;
+}
