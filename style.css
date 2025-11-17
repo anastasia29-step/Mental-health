@@ -7,7 +7,7 @@ nav{
     height: 40px;
     width: 100%;
     position: fixed;
-    top: 2px;
+    top: 1px;
     background-color: #3F3F2D;
     display: flex;
     align-items: center;
@@ -32,6 +32,9 @@ nav{
     position: relative;
     top: 41px;
     overflow: hidden;
+    align-items: center;
+    display: flex;
+    justify-content: center;
  }
 .photo img{
     width: 100%;
@@ -39,3 +42,38 @@ nav{
     object-fit: cover;
     object-position: center;
  } 
+ .text{
+    position: absolute;
+    z-index: 5;
+    text-align: center;
+    color: white;
+    height: 190px;
+    font-family: "Playfair Display", serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+ .text h5{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    margin-top: -45px;
+ }
+ .text h1, button{
+    font-weight: 100;
+ }
+ .text h1{
+    font-size: 40px;
+    margin-top: 10px;
+ }
+ .text button{
+    width: 120px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 1px solid white;
+    color: white;
+    font-family: "Inter", sans-serif;
+    margin: auto;
+    font-weight: 400;
+    margin-top: 50px;
+ }
