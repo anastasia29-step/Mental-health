@@ -7,12 +7,19 @@ nav{
     height: 40px;
     width: 100%;
     position: fixed;
-    top: 3px;
+    top: 2px;
     background-color: #3F3F2D;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
     color: white;
     font-family: "Montserrat", sans-serif;
+    font-size: x-small;
+}
+.calke ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
 }
